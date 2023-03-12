@@ -11,6 +11,12 @@ on:
 
 jobs:
     test:
+      env:
+        HOST: 'localhost'
+        PORT: '5432'
+        USER: 'root'
+        PASSWORD: 'root'
+        DB_NAME: 'root'
       runs-on: ${{ matrix.os }}
       strategy:
         matrix:
