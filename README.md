@@ -1,1 +1,1 @@
-###  Integração Contínua: testes automatizados, docker e pipeline no Github Actions
+###  Integração Contínua: testes automatizado e docker com Github Actions
